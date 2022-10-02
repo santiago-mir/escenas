@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  height: 15vh;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+}
+
+.nav {
+  height: 45px;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.logo {
+  height: 45px;
+  width: 50px;
+  background-color: #849fff;
+}
+
+.search-button {
+  width: 70px;
+  color: #fff;
+  text-align: center;
+  background-color: #393939;
+}
+
+.main-section {
+  height: 85vh;
+  flex-direction: column;
+  display: flex;
+}
+
+.options-conteiner {
+  display: flex;
+}
+
+.content-conteiner {
+  height: 100%;
+}
+
+.option-button {
+  height: 65px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  background-color: #888;
+}
+
+.option-button:focus {
+  background-color: #393939;
+}
+
+.inbox-section {
+  height: 100%;
+  background-color: #fff59b;
+  padding: 15px;
+}
+
+.sent-section {
+  height: 100%;
+  background-color: #ff9bb3;
+  padding: 15px;
+}
+
+.emails-conteiner {
+  gap: 10px;
+  display: grid;
+}
+
+.title {
+  margin: 0;
+  font-size: 60px;
+}
+
+.email {
+  height: 75px;
+  text-align: justify;
+  background-color: #fffde8;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */

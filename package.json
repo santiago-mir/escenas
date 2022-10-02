@@ -1,0 +1,16 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:santiago-mir/escenas.git",
+  "author": "Santiago <san_chan97@hotmail.com>",
+  "license": "MIT", 
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
